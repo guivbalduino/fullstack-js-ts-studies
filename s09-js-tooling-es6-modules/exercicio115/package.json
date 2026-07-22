@@ -1,0 +1,12 @@
+{
+  "name": "exercicio115",
+  "version": "1.0.0",
+  "scripts": {
+    "babel": "babel ./main.js -o ./bundle.js --presets=@babel/env -w"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
+}
